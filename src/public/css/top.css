@@ -25,6 +25,11 @@ a {
     cursor: pointer;
 }
 
+a:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
 img {
     width: 100%;
     display: block;
@@ -34,7 +39,7 @@ li {
     list-style: none;
 }
 
-.magazine, .catalog, .antique{
+.magazine, .catalog, .antique, .fashion__container{
     max-width: 1200px;
     padding: 0 5%;
 }
@@ -211,7 +216,7 @@ catalog, antique
     margin-bottom: 30px;
 }
 
-.catalog__container:last-of-type, .antique__container:last-of-type{
+.catalog__container p:last-of-type, .antique__container p:last-of-type{
     margin-bottom: 0;
 }
 
@@ -269,28 +274,4 @@ footer{
 
 footer p {
     text-align: center;
-}
-
-/*-------------------------------------------
-デバッグ
--------------------------------------------*/
-
-body{
-    background-color: aqua;
-}
-
-.magazine{
-    background-color: bisque;
-}
-
-.magazine__text{
-    background-color: chocolate;
-}
-
-.footer__container{
-    background-color: chocolate;
-}
-
-.catalog, .antique, .fashion__container{
-    background-color: chocolate;
 }
