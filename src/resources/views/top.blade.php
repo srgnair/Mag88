@@ -47,7 +47,7 @@
 
 <section class="fashion">
     <div class="fashion__container">
-    <h2>Fashion & Style</h2>
+    <h2>Fashion &amp; Style</h2>
     <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
     <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
     <a href="#">Read More</a>
