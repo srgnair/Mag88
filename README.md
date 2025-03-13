@@ -5,6 +5,16 @@
 このプロジェクトは、[CodeJump様](https://www.codejump.com/) の模写コーディングです。
 HTML/CSSの学習を目的として、デザインカンプを元にコーディングしました。
 
+## スクリーンショット
+
+1.PC版
+
+![Image](![Image](https://github.com/user-attachments/assets/54068007-838a-41fb-b5cb-6b5aa622d7cb))
+
+2.レスポンシブ版(ブレークポイント600px)<br>
+
+<img src="https://github.com/user-attachments/assets/c0a2cabc-552c-4bbf-8bf8-3ba4f04ced3f" width="350px">
+
 ## 使用技術
 
 - Laravel
@@ -50,15 +60,3 @@ HTML/CSSの学習を目的として、デザインカンプを元にコーディ
 ## ライセンス
 
 このプロジェクトは学習目的のため、商用利用はご遠慮ください。
-
-
-## スクリーンショット
-
-1.PC版
-
-![Image](https://github.com/user-attachments/assets/e8dca434-1fb5-4c83-97e1-5a6222fa3c29)
-
-2.レスポンシブ版(ブレークポイント600px)<br>
-
-<img src="https://github.com/user-attachments/assets/1ed19346-a307-4440-a417-89577d7b66b6" width="300px">
-
