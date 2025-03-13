@@ -33,3 +33,264 @@ img {
 li {
     list-style: none;
 }
+
+.magazine, .catalog, .antique{
+    max-width: 1200px;
+    padding: 0 5%;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
+header{
+    margin-bottom: 80px;
+}
+
+.header__main-visual{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header__main-visual img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.header__logo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    max-width: 120px;
+}
+
+/*-------------------------------------------
+magazine
+-------------------------------------------*/
+.magazine{
+    margin: 0 auto 80px;
+}
+
+.magazine__text{
+    margin: 0 auto 40px;
+}
+
+.magazine__text h2, .magazine__text p{
+    text-align: center;
+}
+
+.magazine__text h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.magazine__text p{
+    font-size: 0.875rem;
+}
+
+.magazine__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.magazine__button{
+    position: relative;
+}
+
+.button__layer{
+    max-width: 300px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 35px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button__layer h3, .button__layer p{
+    color: #fff;
+    text-align: center;
+}
+
+.button__layer h3{
+    font-size: 1.25rem;
+    margin-bottom: 2px;
+}
+
+.button__layer p{
+    font-size: 0.875rem;
+}
+
+/*-------------------------------------------
+fashion
+-------------------------------------------*/
+
+.fashion {
+    background-image: url("../images/fashion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+
+.fashion__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fashion__container h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.fashion__container p{
+    font-size: 0.875rem;
+}
+
+.fashion__container p:last-of-type{
+    margin-bottom: 30px;
+}
+
+.fashion__container a {
+    display: inline-block;
+    padding: 14px 36px;
+    text-align: center;
+    border: #2a2a2a solid 1px;
+}
+
+/*-------------------------------------------
+catalog, antique
+-------------------------------------------*/
+
+.catalog-antique-wrapper{
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.catalog{
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.antique{
+    margin: 0 auto;
+}
+
+.catalog, .antique{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.catalog__image, .antique__image{
+    flex: 1;
+}
+
+.catalog__container, .antique__container{
+    flex: 1;
+}
+
+.catalog__container h2, .antique__container h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.catalog__container p, .antique__container p{
+    margin-bottom: 30px;
+}
+
+.catalog__container:last-of-type, .antique__container:last-of-type{
+    margin-bottom: 0;
+}
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+
+footer{
+    color: #2a2a2a;
+}
+
+.footer__top{
+    width: 100%;
+    background-color: #2a2a2a;
+    padding: 100px 0;
+}
+
+.footer__container{
+    max-width: 1200px;
+    padding: 0 5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer__container h2{
+    flex: 1;
+}
+
+.footer__container img{
+    max-width: 120px;
+}
+
+.footer__list{
+    flex: 1;
+}
+
+.footer__list li{
+    list-style-type: "- ";
+}
+
+.footer__list h3, .footer__list ul, .footer__text h3, .footer__text p{
+    text-align: left;
+}
+
+.footer__list h3, .footer__text h3{
+    margin-bottom: 10px;
+}
+
+.footer__text{
+    flex: 1;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*-------------------------------------------
+デバッグ
+-------------------------------------------*/
+
+body{
+    background-color: aqua;
+}
+
+.magazine{
+    background-color: bisque;
+}
+
+.magazine__text{
+    background-color: chocolate;
+}
+
+.footer__container{
+    background-color: chocolate;
+}
+
+.catalog, .antique, .fashion__container{
+    background-color: chocolate;
+}
